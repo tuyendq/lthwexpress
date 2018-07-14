@@ -1,0 +1,25 @@
+{
+  "name": "lthwexpress",
+  "version": "1.0.0",
+  "description": "Learn express the hard way",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "debug": "set DEBUG=express:* & nodemon ./index.js --exec babel-node -e js"
+  },
+  "keywords": [
+    "lthw"
+  ],
+  "author": "LinkedIn Learning",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
